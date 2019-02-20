@@ -4,7 +4,9 @@ This repository describes some example uses of MPS generators for discussion wit
 
 The theme of our examples is multi-target generation and granularity of control in the MPS generators.
 
-We have one example-language to illustrate all the example uses.
+We have one example-language to illustrate all the example uses. You can open the language in MPS 2018.3 by opening the folder of this repository when you have cloned it to your machine. Since the example uses plaintextgen, you will also need to add the [MPS Extensions](https://github.com/JetBrains/MPS-extensions/releases/download/nightly-2018.3.691.7da2f8e/de.itemis.mps.extensions-2018.3.691.7da2f8e.zip) to your project libraries or your global libraries (unzip and then add to libraries; note that in 2018.3 you may need to reboot MPS after adding MPS Extensions to your libraries).
+
+Please note that the example repository is not complete. It is merely to have a concrete example language to talk about and the initial plaintextgen generator as a context for the considerations in this README.md document.
 
 ## Context
 Graph: a language with vertices that can have a color and edges between them.
