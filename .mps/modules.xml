@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.examples.graph/sandbox/com.dslfoundry.examples.graph.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+digraph g {
+    node [shape=note style=filled]
+    "Graph" [shape=rectangle, fillcolor=white]
+    "Graph_minimized" [shape=rectangle, fillcolor=white]
+    "Graph" -> "Graph_minimized"
+    "Graph" -> "full.dot (plaintextgen)"
+    "Graph" -> "full.java (baseLanguage)"
+    "Graph_minimized" -> "minimized.java (baseLanguage)"
+    "Graph_minimized" -> "minimized.dot (plaintextgen)"
+}
