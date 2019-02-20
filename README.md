@@ -34,12 +34,12 @@ To add generation for `full.java`, we can write a root mapping rule with a `Clas
 ### In-model subtree "rewrite"
 For the minimization of `Graph` to `Graph_minimized`, we would like to only add a reduction rule to filter vertices and reconnect where vertices have been filtered out. Filtering could be done with a reduction rule and reconnecting with a weaving rule, but first we would need fine-grained control over these rules and second, the original idea of "minimization" gets lost conceptually for maintainers because it is spread over two separate constructs in the generator without an obvious connection between them.
 
-# Ideas/suggestions
+## Ideas/suggestions
 * Explicit control over multi-step reduction: Would it be a good idea to have more fine-grained optional control of priorities? E.g. always prefer rule A over rule B (right now you can only do it on language-level).
 * Explicit control over mapping configurations: Would it be a good idea to use individual mapping configurations in generator priorities/plans, and not only full languages (allow more fine-grained control)?
 * Would it be a good idea to have more fine-grained control over root-nodes of a model in generator priorities/plans? I.e. right now you can only have control on model-level.
 * Would it be a good idea to just "draw a graph of dependencies between various inputs/outputs (models, nodes, ...) and transformations (languages/generators, (root mapping/reduction) rules)? This would be how we as language engineers think about model-to-model transformations.
 
-# Conceptual considerations
+## Conceptual considerations
 * Is the "generator always belongs to a language" axiom an obvious/"logical" one? It forces you to sometimes have languages that are empty, except for the generator aspect. Many users coming from Eclipse have different expectations here (concrete example: the Epsilon generators which are part of the Eclipse Modeling Project have the generators as a separate module from a user perspective). It may be useful to make this more easily accessible on the user-level for users of such existing generator frameworks. This also has to do with the fourth idea/suggestion.
 * For each of the problems posed, there is a point-solution that will give direct alleviation. However, combining all the solution in one, will be difficult to understand and challenging to maintain. Probably we are missing some additional abstractions.
