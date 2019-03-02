@@ -6,7 +6,9 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90174e16-b6b5-4772-93cd-0b79ab3033f0" name="Default Changelist" comment="" />
+    <list default="true" id="90174e16-b6b5-4772-93cd-0b79ab3033f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="0338b29b-52d0-417c-804f-767704c11e25/r:c2d9332c-f847-475e-aa88-2c226f0d99b0(TempModule0338b29b-52d0-417c-804f-767704c11e25/TempModel_98686573937028)">
+            <model ref="f42d3a9d-bf88-4245-9c21-ed0b88e061cf/r:731611d5-3072-428e-93e5-46fddf5da3a5(TempModulef42d3a9d-bf88-4245-9c21-ed0b88e061cf/TempModel_3295966408084)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -47,11 +49,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5NnZ2kgOYUi">
-                <node concept="3balQm" id="5NnZ2kgOYUj" role="aymYE" />
-                <node concept="2Clz$F" id="5NnZ2kgOYUk" role="aymYO" />
-                <node concept="2_V_lH" id="5NnZ2kgOYUl" role="1PhJh3">
-                  <ref role="2_V_lI" node="5NnZ2kgOYUk" resolve="CommandHolder" />
+              <node concept="aymSD" id="nAOCb8CIFX">
+                <node concept="3balQm" id="nAOCb8CIFY" role="aymYE" />
+                <node concept="2Clz$F" id="nAOCb8CIFZ" role="aymYO" />
+                <node concept="2_V_lH" id="nAOCb8CIG0" role="1PhJh3">
+                  <ref role="2_V_lI" node="nAOCb8CIFZ" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -76,71 +78,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="mps://node://com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.structure/Graph">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_l3czay_a">
-                      <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638285709" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_3u2hfl_a">
-                      <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638285700" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-                </enabledHints>
-              </inspectorMemento>
-              <node node_ref="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638235086" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="mps://node://com.dslfoundry.examples.graph#01/main@generator/main">
+        <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/MinimizeGraph">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="367" />
+                    <property name="caretXRelative" value="336" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_namespace">
+                      <node node_reference="r:4a44bb35-a02b-4012-8c69-f2c9db8e662b(plan_util)/9011603263319845229" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorMarkers />
                 <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_trik0f_b0">
-                      <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638620199" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_trik0f_b0">
-                      <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638975043" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="refNodeList_dropAttrubuteRule">
-                      <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
+                <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -153,11 +111,6 @@
               </inspectorMemento>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="previewc.d.e.graph.sandbox@13_13/MyGraph.dot">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -165,13 +118,23 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="63" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:0b6d3d6b-42af-4342-a901-b9774d29b0e2(com.dslfoundry.examples.graph.sandbox)/7041442264007382784" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -184,6 +147,202 @@
               </inspectorMemento>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/GraphToDot">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="351" />
+                    <property name="caretXRelative" value="320" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_namespace">
+                      <node node_reference="r:4a44bb35-a02b-4012-8c69-f2c9db8e662b(plan_util)/9011603263319845200" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan/Main">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="183" />
+                    <property name="caretXRelative" value="88" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/GraphToJava">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="343" />
+                    <property name="caretXRelative" value="312" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_namespace">
+                      <node node_reference="r:4a44bb35-a02b-4012-8c69-f2c9db8e662b(plan_util)/9011603263320049213" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://com.dslfoundry.example.gen_graph_to_java#01/graph_to_java@generator/map_Graph">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="252" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_y5igai_a0">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263320260271" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319441570" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319259530" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319213871" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319211718" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_uj0cpq_l0">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319355793" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a">
+                      <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319211718" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="previewc.d.e.graph.sandbox@2_101/MyGraph.dot">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="previewc.d.e.graph.sandbox@6_103/MyGraph.dot">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="previewc.d.e.graph.sandbox@8_106/MyGraph.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="previewc.d.e.graph.sandbox@4_104/MyGraph.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -456,101 +615,21 @@
       </option>
     </option>
   </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystem" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="864f9d37-2f9a-44c7-adde-0f707f568a71" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d7b89f88-e35a-4352-b1df-0d102968826c(com.dslfoundry.examples.graph)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.dslfoundry.examples.graph#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator) in IdeaFile[file://C:/projects/MDSD/MPS power users NL/Generator Example/mps-generator-examples/languages/com.dslfoundry.examples.graph/generator/template/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d7b89f88-e35a-4352-b1df-0d102968826c(com.dslfoundry.examples.graph)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.dslfoundry.examples.graph#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="864f9d37-2f9a-44c7-adde-0f707f568a71" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="864f9d37-2f9a-44c7-adde-0f707f568a71" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:0b6d3d6b-42af-4342-a901-b9774d29b0e2(com.dslfoundry.examples.graph.sandbox) in IdeaFile[file://C:/projects/MDSD/MPS power users NL/Generator Example/mps-generator-examples/languages/com.dslfoundry.examples.graph/sandbox/models/com.dslfoundry.examples.graph.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d7b89f88-e35a-4352-b1df-0d102968826c(com.dslfoundry.examples.graph)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,21 +639,12 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="d7b89f88-e35a-4352-b1df-0d102968826c(com.dslfoundry.examples.graph)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.dslfoundry.examples.graph#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator) in IdeaFile[file://C:/projects/MDSD/MPS power users NL/Generator Example/mps-generator-examples/languages/com.dslfoundry.examples.graph/generator/template/main@generator.mps]" />
+              <option name="myItemId" value="864f9d37-2f9a-44c7-adde-0f707f568a71" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
         <subPane />
       </pane>
@@ -591,13 +661,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\eug\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\schindlerk\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20031796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -606,7 +689,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Model Checker" order="7" />
+      <window_info anchor="bottom" id="Model Checker" order="7" sideWeight="0.49880764" weight="0.32927758" />
       <window_info anchor="bottom" id="Bookmarks" order="8" />
       <window_info anchor="bottom" id="Migration" order="9" />
       <window_info anchor="bottom" id="Menu Trace" order="10" />
@@ -616,14 +699,14 @@
       <window_info anchor="bottom" id="Usages" order="14" />
       <window_info anchor="bottom" id="Node Explorer" order="15" />
       <window_info anchor="bottom" id="Module Dependencies" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info anchor="bottom" id="Generation Tracer" order="18" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="17" visible="true" weight="0.32927758" />
+      <window_info anchor="bottom" id="Generation Tracer" order="18" weight="0.32927758" />
       <window_info anchor="bottom" id="Cell Explorer" order="19" />
-      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.49840087" visible="true" weight="0.32879582" />
+      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4944356" weight="0.3285171" />
       <window_info anchor="bottom" id="Typechecker State" order="21" />
-      <window_info anchor="bottom" id="Console" order="22" />
-      <window_info anchor="bottom" id="RefactoringView" order="23" />
-      <window_info anchor="bottom" id="Inspector" order="24" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.32879582" />
+      <window_info anchor="bottom" id="Console" order="22" sideWeight="0.49920508" weight="0.32927758" />
+      <window_info anchor="bottom" id="RefactoringView" order="23" sideWeight="0.49880764" weight="0.32927758" />
+      <window_info anchor="bottom" id="Inspector" order="24" sideWeight="0.5055644" side_tool="true" weight="0.3285171" />
       <window_info anchor="bottom" id="Dependencies Viewer" order="25" />
       <window_info anchor="bottom" id="Documentation" order="26" weight="0.33144155" />
       <window_info anchor="bottom" id="Trace Explorer" order="27" />
@@ -657,189 +740,266 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <MESSAGE value="Finalize example for generator discussion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalize example for generator discussion" />
+    <MESSAGE value="Make fully working example using generation plans and separate languages for each generator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Make fully working example using generation plans and separate languages for each generator." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.structure/&lt;no name&gt;[EnumerationDataTypeDeclaration]" />
-    <entry file="mps://node://com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.structure/&lt;no name&gt;[ConceptDeclaration]" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/com.dslfoundry.examples.graph.sandbox/&lt;no name&gt;[Graph]" />
-    <entry file="mps://node://com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.structure/Vertex">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="74">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="113" />
-                <property name="caretXRelative" value="98" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a">
-                  <node node_reference="r:b6a8186b-43be-4f88-aec0-c7449b14eea9(com.dslfoundry.examples.graph.structure)/7041442264007322326" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638619595" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-          <node node_ref="r:b6a8186b-43be-4f88-aec0-c7449b14eea9(com.dslfoundry.examples.graph.structure)/7041442264007322326" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.structure/Edge">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="30">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-43" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_6h6dhy_a">
-                  <node node_reference="r:b6a8186b-43be-4f88-aec0-c7449b14eea9(com.dslfoundry.examples.graph.structure)/7041442264007323354" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638619595" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-          <node node_ref="r:b6a8186b-43be-4f88-aec0-c7449b14eea9(com.dslfoundry.examples.graph.structure)/7041442264007322327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient15/com.dslfoundry.examples.graph.sandbox@2_0/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient4/plan@0/MinimizeGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient4/plan@0/GraphToDot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient4/com.dslfoundry.examples.graph.sandbox@0/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient4/com.dslfoundry.examples.graph.sandbox@1_0/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.gen_graph_to_dot#01/main@generator/main" />
+    <entry file="mps://node://com.dslfoundry.examples.gen_graph_to_dot#01/main@generator/graph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan/GraphToDot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan/MinimizeGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient10/com.dslfoundry.examples.graph.sandbox@0/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient10/com.dslfoundry.examples.graph.sandbox@2_0/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient10/com.dslfoundry.examples.graph.sandbox@3_2/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient10/com.dslfoundry.examples.graph.sandbox@1_100/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient10/com.dslfoundry.examples.graph.sandbox@1_101/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient20/com.dslfoundry.examples.graph.sandbox@2_101/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient22/com.dslfoundry.examples.graph.sandbox@2_101/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.gen_minimize_graph#01/main@generator/main" />
+    <entry file="mps://node://com.dslfoundry.example.gen_graph_to_java#01/main@generator/main" />
+    <entry file="mps://node://checkpoints/plan@full_graph/Main" />
+    <entry file="mps://node://checkpoints/com.dslfoundry.examples.graph.sandbox@minimal_graph/MyGraph" />
+    <entry file="mps://node://checkpoints/com.dslfoundry.examples.graph.sandbox@minimal_dot/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@2_100/MyGraph" />
+    <entry file="mps://node://checkpoints/com.dslfoundry.examples.graph.sandbox@full_graph/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@2_101/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@3_100/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@3_101/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@6_102/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@6_103/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@7_102/MyGraph" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient42/com.dslfoundry.examples.graph.sandbox@7_103/MyGraph" />
+    <entry file="file://$PROJECT_DIR$/languages/com.dslfoundry.examples.graph/sandbox/source_gen/com/dslfoundry/examples/graph/sandbox/MyGraph.java" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/&lt;no name&gt;[Plan]" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient132/com.dslfoundry.examples.graph.sandbox@6_103/MyGraph.dot" />
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient142/com.dslfoundry.examples.graph.sandbox@8_106/MyGraph" />
     <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/com.dslfoundry.examples.graph.sandbox/MyGraph">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="100">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="169" />
-                <property name="caretXRelative" value="28" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:0b6d3d6b-42af-4342-a901-b9774d29b0e2(com.dslfoundry.examples.graph.sandbox)/1877262771351226005" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:0b6d3d6b-42af-4342-a901-b9774d29b0e2(com.dslfoundry.examples.graph.sandbox)/1877262771351226005" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient18/com.dslfoundry.examples.graph.sandbox@2_0/MyGraph.dot" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient18/com.dslfoundry.examples.graph.sandbox@0/MyGraph" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient20/com.dslfoundry.examples.graph.sandbox@2_0/MyGraph.dot" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient20/com.dslfoundry.examples.graph.sandbox@0/MyGraph" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient22/com.dslfoundry.examples.graph.sandbox@0/MyGraph" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient22/com.dslfoundry.examples.graph.sandbox@2_0/MyGraph.dot" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient24/com.dslfoundry.examples.graph.sandbox@2_0/minimized_graph" />
-    <entry file="mps://node://com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.structure/Graph">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_l3czay_a">
-                  <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638285709" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_3u2hfl_a">
-                  <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638285700" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-          <node node_ref="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638235086" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient28/com.dslfoundry.examples.graph.sandbox@2_1/minimized_graph.dot" />
-    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox@transient28/com.dslfoundry.examples.graph.sandbox@2_0/minimized_graph" />
-    <entry file="mps://node://com.dslfoundry.examples.graph#01/main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:0b6d3d6b-42af-4342-a901-b9774d29b0e2(com.dslfoundry.examples.graph.sandbox)/7041442264007382784" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.dslfoundry.example.gen_graph_to_java#01/graph_to_java@generator/map_Graph">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="252" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263320260271" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_trik0f_b0">
-                  <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638620199" />
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319441570" />
                 </cellIdElement>
               </collapsedElement>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_trik0f_b0">
-                  <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/2697012847638975043" />
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319259530" />
                 </cellIdElement>
               </collapsedElement>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="refNodeList_dropAttrubuteRule">
-                  <node node_reference="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" />
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319213871" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319211718" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_uj0cpq_l0">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319355793" />
                 </cellIdElement>
               </collapsedElement>
             </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:6bc1a7e9-3623-4468-803a-4b1c415c5e23(graph_to_java@generator)/9011603263319211718" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/MinimizeGraph">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="367" />
+                <property name="caretXRelative" value="336" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_namespace">
+                  <node node_reference="r:4a44bb35-a02b-4012-8c69-f2c9db8e662b(plan_util)/9011603263319845229" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:7bc59db5-809c-4afe-bcda-e8b02ad6e646(main@generator)/7041442264007285359" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/GraphToJava">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="312" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_namespace">
+                  <node node_reference="r:4a44bb35-a02b-4012-8c69-f2c9db8e662b(plan_util)/9011603263320049213" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan_util/GraphToDot">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="351" />
+                <property name="caretXRelative" value="320" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_namespace">
+                  <node node_reference="r:4a44bb35-a02b-4012-8c69-f2c9db8e662b(plan_util)/9011603263319845200" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.dslfoundry.examples.graph.sandbox/plan/Main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="183" />
+                <property name="caretXRelative" value="88" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f96cccb9-5321-4571-b8e0-afd946b54466(plan)/9011603263319895742" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

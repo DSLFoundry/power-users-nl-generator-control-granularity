@@ -3,6 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="d7b89f88-e35a-4352-b1df-0d102968826c" name="com.dslfoundry.examples.graph" version="0" />
+    <use id="7ab1a6fa-0a11-4b95-9e48-75f363d6cb00" name="jetbrains.mps.lang.generator.plan" version="1" />
+    <use id="d3a0b4a5-2b47-4f9b-a204-0c16873b4a6e" name="com.dslfoundry.examples.gen_minimize_graph" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
   </languages>
   <imports />
   <registry>

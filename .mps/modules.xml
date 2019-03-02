@@ -2,6 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.example.gen_graph_to_java/com.dslfoundry.example.gen_graph_to_java.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.examples.gen_graph_to_dot/com.dslfoundry.examples.gen_graph_to_dot.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.examples.gen_minimize_graph/com.dslfoundry.examples.gen_minimize_graph.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.examples.graph/com.dslfoundry.examples.graph.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.examples.graph/sandbox/com.dslfoundry.examples.graph.sandbox.msd" folder="" />
     </projectModules>
